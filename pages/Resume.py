@@ -33,8 +33,10 @@ with col1:
     """)
 
     st.subheader("Soft Skills")
-    st.write(""" 
-    Time management and multitasking abilities | Strong interpersonal and collaboration skills| Analytical problem-solving mindset \n
+    st.markdown(""" 
+    Time management and multitasking abilities <br>
+    Strong interpersonal and collaboration skills <br>
+    Analytical problem-solving mindset <br>
     Self motivated and committed to continuous learning. 
     """)
 
@@ -58,11 +60,11 @@ st.markdown(
     <style>
     .centered-header {
         text-align: center;
-        background-color: #666666;  /* Dark medium gray background */
-        color: #ffffff;             /* White text for contrast */
-        padding: 10px;              /* Add padding for better spacing */
-        border-radius: 5px;         /* Optional: Rounded corners */
-        margin: 20px 0;             /* Add margin for spacing */
+        background-color: #666666;  
+        color: #ffffff;             
+        padding: 10px;              
+        border-radius: 5px;         
+        margin: 20px 0;             
     }
     </style>
     <div class="centered-header">
@@ -76,11 +78,11 @@ st.markdown(
     """
     <style>
     .white-background {
-        background-color: #ffffff;  /* White background */
-        padding: 15px;              /* Add padding for better spacing */
-        border-radius: 5px;         /* Optional: Rounded corners */
-        margin: 10px 0;             /* Add margin for spacing */
-        border: 1px solid #e0e0e0;  /* Optional: Add a light border for definition */
+        background-color: #ffffff;  
+        padding: 15px;             
+        border-radius: 5px;         
+        margin: 10px 0;             
+        border: 1px solid #e0e0e0;  
     }
     </style>
     <div class="white-background">
@@ -122,11 +124,11 @@ st.markdown(
     """
     <style>
     .white-background {
-        background-color: #ffffff;  /* White background */
-        padding: 15px;              /* Add padding for better spacing */
-        border-radius: 5px;         /* Optional: Rounded corners */
-        margin: 10px 0;             /* Add margin for spacing */
-        border: 1px solid #e0e0e0;  /* Optional: Add a light border for definition */
+        background-color: #ffffff;  
+        padding: 15px;              
+        border-radius: 5px;         
+        margin: 10px 0;            
+        border: 1px solid #e0e0e0;  
     }
     </style>
     <div class="white-background">
@@ -144,11 +146,11 @@ st.markdown(
     """
     <style>
     .light-gray-background {
-        background-color: #f8f9fa;  /* Light gray background */
-        padding: 15px;              /* Add padding for better spacing */
-        border-radius: 5px;         /* Optional: Rounded corners */
-        margin: 10px 0;             /* Add margin for spacing */
-        border: 1px solid #e0e0e0;  /* Optional: Add a light border for definition */
+        background-color: #f8f9fa;  
+        padding: 15px;              
+        border-radius: 5px;        
+        margin: 10px 0;           
+        border: 1px solid #e0e0e0;  
     }
     </style>
     <div class="light-gray-background">
