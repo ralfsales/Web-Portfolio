@@ -1,2 +1,2 @@
-# What is this project?
-This is a web app to showcase my projects
+# What is this?
+This is a web Portfolio to showcase my projects and professional career.
