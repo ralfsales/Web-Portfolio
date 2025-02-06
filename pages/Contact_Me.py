@@ -4,22 +4,20 @@ from send_email import send_email
 
 st.set_page_config(layout="wide")
 
-st.header("Contact Me 🙋🏼‍♂️")
-
 st.markdown(
     """
     <style>
-    .stForm {
-        background-color: #f0f0f0;
-        padding: 20px;
-        border-radius: 10px;
+    /* Target the root HTML elements */
+    html, body, [class*="css"]  {
+        background-color: #f0f0f0;  /* Light gray color */
     }
     </style>
     """,
     unsafe_allow_html=True
 )
 
-# Create the form
+st.header("Contact Me 🙋🏼‍♂️")
+
 with st.form(key="email_forms"):
     user_name = st.text_input("Please, provide your name", placeholder="Type your name...")
     user_email = st.text_input("Your email", placeholder="Type your email address...")
