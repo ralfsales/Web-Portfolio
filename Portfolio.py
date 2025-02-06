@@ -53,16 +53,16 @@ with col2:
         f"""
         <style>
         .light-gray-background {{
-            background-color: #f8f9fa;  /* Light gray background */
-            padding: 20px;              /* Add padding for better spacing */
-            border-radius: 10px;        /* Rounded corners */
-            margin: 10px 0;             /* Add margin for spacing */
-            line-height: 1.6;           /* Improve readability with line height */
+            background-color: #f8f9fa;  
+            padding: 20px;              
+            border-radius: 10px;        
+            margin: 10px 0;             
+            line-height: 1.6;           
             text-align: justify;
         }}
         </style>
         <div class="light-gray-background">
-            {content1.replace("\n", "<br>")}  <!-- Replace newlines with <br> for HTML -->
+            {content1.replace("\n", "<br>")}
         </div>
         """,
         unsafe_allow_html=True
@@ -75,17 +75,17 @@ st.markdown(
     f"""
     <style>
     .dark-gray-background {{
-        background-color: #333333;  /* Dark gray background */
-        color: #ffffff;             /* White text for contrast */
-        padding: 20px;              /* Add padding for better spacing */
-        border-radius: 10px;        /* Rounded corners */
-        margin: 10px 0;             /* Add margin for spacing */
-        line-height: 1.6;           /* Improve readability with line height */
+        background-color: #333333;
+        color: #ffffff;             
+        padding: 20px;              
+        border-radius: 10px;        
+        margin: 10px 0;             
+        line-height: 1.6;           
         text-align: center;
     }}
     </style>
     <div class="dark-gray-background">
-        {content2.replace("\n", "<br>")}  <!-- Replace newlines with <br> for HTML -->
+        {content2.replace("\n", "<br>")}  
     </div>
     """,
     unsafe_allow_html=True
@@ -103,15 +103,15 @@ def resize_image(image_path, width, height):
 with col3:
     for index, row in df[:5].iterrows():
         st.header(row["title"])
-        img = resize_image("images/" + row["image"], 100, 80)
+        img = resize_image("images/" + row["image"], 200, 160)
         st.image(img)
         st.write(row["description"])
-        st.write(f"[Source Code]({row['url']})")
+        st.write(f"[Access my repository]({row['url']})")
 
 with col4:
-    for index, row in df[6:].iterrows():
+    for index, row in df[5:].iterrows():
         st.header(row["title"])
-        img = resize_image("images/" + row["image"], 100, 80)
+        img = resize_image("images/" + row["image"], 200, 160)
         st.image(img)
         st.write(row["description"])
-        st.write(f"[Source Code]({row['url']})")
+        st.write(f"[Access my repository]({row['url']})")
