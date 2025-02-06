@@ -40,7 +40,7 @@ with col1:
 
     st.subheader("Download My Resume")
 
-    file_path = r"C:\Users\rafae\OneDrive\Desktop\Rafael Sales - Resume CS.pdf"
+    file_path = r"C:\Users\rafae\Desktop\Projects for my Portifolio\Portifolio\Rafael Sales - Resume CS.pdf"
     with open(file_path, "rb") as file:
         btn = st.download_button(
             label="📄 Resume File",
