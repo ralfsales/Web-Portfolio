@@ -38,18 +38,6 @@ with col1:
     Self motivated and committed to continuous learning. 
     """)
 
-    st.subheader("Download My Resume")
-
-    file_path = r"C:\Users\rafae\Desktop\Projects for my Portifolio\Portifolio\Rafael Sales - Resume CS.pdf"
-    with open(file_path, "rb") as file:
-        file_data = file.read()  # Read the file content
-        btn = st.download_button(
-            label="📄 Resume File",
-            data=file_data,  # Pass the file content here
-            file_name="Rafael Sales - Resume CS.pdf",
-            mime="application/pdf"
-        )
-
 with col2:
     st.subheader("Tools and Technologies")
     st.markdown(
