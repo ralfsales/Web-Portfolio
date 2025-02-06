@@ -33,7 +33,7 @@ with col1:
     st.link_button(label="GitHub", url="https://github.com/ralfsales")
 
 with col2:
-    content1 = """Hi there! Welcome to My Web Portfolio! \n
+    content1 = """Hi there! Welcome to My Portfolio! \n
     I’m a passionate and driven Computer Scientist with a strong foundation in Network Administration, Project Management, and Software Development.
 
     I thrive on solving complex problems with creative solutions and am known for my organizational skills, effective communication, and attention to detail.
