@@ -38,12 +38,16 @@ with col1:
     Self motivated and committed to continuous learning. 
     """)
 
-    st.subheader("Links")
-    cola, colb = st.columns(2)
-    with cola:
-        st.link_button(label="LinkedIn", url="https://www.linkedin.com/in/rafaelguilhemegsales/")
-    with colb:
-        st.link_button(label="GitHub", url="https://github.com/ralfsales")
+    st.subheader("Download My Resume")
+
+    file_path = r"C:\Users\rafae\OneDrive\Desktop\Rafael Sales - Resume CS.pdf"
+    with open(file_path, "rb") as file:
+        btn = st.download_button(
+            label="📄 Resume File",
+            data=file,
+            file_name="Rafael Sales - Resume CS.pdf",
+            mime="application/pdf"
+        )
 
 with col2:
     st.subheader("Tools and Technologies")
