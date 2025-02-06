@@ -42,9 +42,10 @@ with col1:
 
     file_path = r"C:\Users\rafae\Desktop\Projects for my Portifolio\Portifolio\Rafael Sales - Resume CS.pdf"
     with open(file_path, "rb") as file:
+        file_data = file.read()  # Read the file content
         btn = st.download_button(
             label="📄 Resume File",
-            data=file,
+            data=file_data,  # Pass the file content here
             file_name="Rafael Sales - Resume CS.pdf",
             mime="application/pdf"
         )
