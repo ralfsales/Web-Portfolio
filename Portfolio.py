@@ -53,7 +53,8 @@ with col2:
         f"""
         <style>
         .light-gray-background {{
-            background-color: #f8f9fa;  
+            background-color: #666666;
+            color: #ffffff;   
             padding: 20px;              
             border-radius: 10px;        
             margin: 10px 0;             
@@ -75,8 +76,8 @@ st.markdown(
     f"""
     <style>
     .dark-gray-background {{
-        background-color: #333333;
-        color: #ffffff;             
+        background-color: #ffffff;
+        color: #000000;             
         padding: 20px;              
         border-radius: 10px;        
         margin: 10px 0;             

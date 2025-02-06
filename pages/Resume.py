@@ -7,11 +7,11 @@ st.markdown(
     <style>
     .centered-header {
         text-align: center;
-        background-color: #666666;  /* Dark medium gray background */
-        color: #ffffff;             /* White text for contrast */
-        padding: 10px;              /* Add padding for better spacing */
-        border-radius: 5px;         /* Optional: Rounded corners */
-        margin: 20px 0;             /* Add margin for spacing */
+        background-color: #666666;  
+        color: #ffffff;             
+        padding: 10px;              
+        border-radius: 5px;         
+        margin: 20px 0; 
     }
     </style>
     <div class="centered-header">

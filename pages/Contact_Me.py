@@ -7,16 +7,21 @@ st.set_page_config(layout="wide")
 st.markdown(
     """
     <style>
-    /* Target the root HTML elements */
-    html, body, [class*="css"]  {
-        background-color: #f0f0f0;  /* Light gray color */
+    .centered-header {
+        text-align: center;
+        background-color: #666666;  
+        color: #ffffff;             
+        padding: 10px;              
+        border-radius: 5px;         
+        margin: 20px 0; 
     }
     </style>
+    <div class="centered-header">
+        <h1>Contact Me 🙋🏼‍♂️</h1>
+    </div>
     """,
     unsafe_allow_html=True
 )
-
-st.header("Contact Me 🙋🏼‍♂️")
 
 with st.form(key="email_forms"):
     user_name = st.text_input("Please, provide your name", placeholder="Type your name...")
