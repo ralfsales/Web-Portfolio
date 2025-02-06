@@ -34,11 +34,11 @@ with col1:
 
     st.subheader("Soft Skills")
     st.markdown(""" 
-    Time management and multitasking abilities <br>
-    Strong interpersonal and collaboration skills <br>
-    Analytical problem-solving mindset <br>
+    Time management and multitasking abilities; <br>
+    Strong interpersonal and collaboration skills; <br>
+    Analytical problem-solving mindset; <br>
     Self motivated and committed to continuous learning. 
-    """)
+    """, unsafe_allow_html=True)
 
 with col2:
     st.subheader("Tools and Technologies")
